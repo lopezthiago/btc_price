@@ -21,3 +21,4 @@ jobs:
         env:
           BTC_TELEGRAM_API_KEY: ${{ secrets.BTC_TELEGRAM_API_KEY }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          COINDESK_API_KEY: ${{ secrets.COINDESK_API_KEY }}
